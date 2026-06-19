@@ -68,10 +68,3 @@ coordinator_piper_xarm = ControlCoordinator.blueprint(
         _piper_dual.to_task_config(task_name="traj_piper"),
     ],
 )
-
-
-__all__ = [
-    "coordinator_dual_mock",
-    "coordinator_dual_xarm",
-    "coordinator_piper_xarm",
-]

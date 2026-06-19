@@ -108,12 +108,3 @@ coordinator_piper = autoconnect(
     ),
     *_mujoco_if_sim(str(PIPER_SIM_PATH), _piper_cfg.dof),
 )
-
-
-__all__ = [
-    "coordinator_basic",
-    "coordinator_mock",
-    "coordinator_piper",
-    "coordinator_xarm6",
-    "coordinator_xarm7",
-]

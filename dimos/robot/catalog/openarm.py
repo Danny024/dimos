@@ -115,6 +115,3 @@ def openarm_single(
     }
     defaults.update(overrides)
     return RobotConfig(**defaults)
-
-
-__all__ = ["OPENARM_V10_FK_MODEL", "openarm_arm", "openarm_single"]

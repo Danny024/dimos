@@ -51,10 +51,3 @@ else:
 # Set up camera calibration provider (always available)
 CALIBRATION_DIR = Path(__file__).parent
 CameraInfo = CalibrationProvider(CALIBRATION_DIR)
-
-__all__ = [
-    "HAS_ZED_SDK",
-    "CameraInfo",
-    "ZEDCamera",
-    "ZEDModule",
-]

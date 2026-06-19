@@ -153,12 +153,3 @@ def xarm6(
     }
     defaults.update(overrides)
     return RobotConfig(**defaults)
-
-
-__all__ = [
-    "XARM6_FK_MODEL",
-    "XARM7_FK_MODEL",
-    "XARM_GRIPPER_COLLISION_EXCLUSIONS",
-    "xarm6",
-    "xarm7",
-]

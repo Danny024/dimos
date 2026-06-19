@@ -96,6 +96,3 @@ def a750(
     }
     defaults.update(overrides)
     return RobotConfig(**defaults)
-
-
-__all__ = ["A750_FK_MODEL", "A750_GRIPPER_COLLISION_EXCLUSIONS", "a750"]

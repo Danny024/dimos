@@ -84,6 +84,3 @@ def piper(
     }
     defaults.update(overrides)
     return RobotConfig(**defaults)
-
-
-__all__ = ["PIPER_FK_MODEL", "PIPER_GRIPPER_COLLISION_EXCLUSIONS", "piper"]
